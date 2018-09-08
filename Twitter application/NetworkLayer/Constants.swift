@@ -19,10 +19,10 @@ enum Constants {
     }
     
     struct Value {
-        static let consumerKey = "nIhm3OLyKE02a5w95MKEnL7Sz"
-        static let consumerSecret = "lrlMGKMb64l4gFZBvXOAT4f2twySBgeDtn4qIcf2ntvyUmBiMW"
-        static let oauthToken = Session.fetch()!.accessToken.token//"1295068026-1u1Jn66gpk82RDhMZ3o5TnLrbaLzj1yWs2iuVKY"
-        static let tokenSecret = Session.fetch()!.accessToken.tokenSecret//"sapv0EpQTIzx0PunzcO9cxIhVAjUGzfjxe8hXQu6EMkUK"
+        static let consumerKey = ""
+        static let consumerSecret = ""
+        static let oauthToken = Session.fetch()!.accessToken.token
+        static let tokenSecret = Session.fetch()!.accessToken.tokenSecret
         static let oauthVersion = "1.0"
         static let signatureMethod = "HMAC-SHA1"
         
